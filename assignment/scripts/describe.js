@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a string variable called 'name' with the value 'Dane'.
+// We then set up a conditional where if the name variable is strictly equal to 'Mary'
+//    we would console.log 'Hi, Mary!'.  If the name variable is not strictly equal to 'Mary'
+//    (it has any other value), we will console.log 'How do you do?' 
+// Since our name variable ('Dane') is not strictly equal to 'Mary', we console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +46,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable named 'secret'.
+// We create a variable with the number value 123.
+// We then go down to the if statement. This statement says if our variable 
+//    code is strictly equal to 123, we assign the string 'super' to be the value of 
+//    our secret variable.  Andd code is reassigned the value code times two, which is 246.
+// We then go down to the next if statement.  This reads if code is greater than 250, we
+    //re-assign the value to secret to be 'duper'.  
+    //since our code equals 246, we console.log 'super'.
 
 //CODE
 /*
