@@ -168,6 +168,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - instructions say we check if temp is higher than 39 AND if time is
+    //greater than or equal to 4.  But the code uses || which means OR.  To fix the
+    //code, || should be replaced by &&.  
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
