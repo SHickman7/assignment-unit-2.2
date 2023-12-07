@@ -53,7 +53,7 @@ if (name === 'Mary') {
 //    our secret variable.  Andd code is reassigned the value code times two, which is 246.
 // We then go down to the next if statement.  This reads if code is greater than 250, we
     //re-assign the value to secret to be 'duper'.  
-    //since our code equals 246, we console.log 'super'.
+    //since our code equals 246 (which is not greater than 250), we console.log 'super'.
 
 //CODE
 /*
@@ -75,10 +75,20 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a boolean variable named isStudent which is set to true.
+// We create a variable called age which is assigned the number value 34.
+// We create a variable called zip which is assigned to the number value 55407.
+// We then have a chain of if/else if/else statements.  We go down that list of 
+    //statements and the first one that is true is applied and we jump out of the code.
+// The first statement is if the isStudent boolean is true AND the zip value is greater than 80000
+    // we would console.log 'You're a student on the West Coast'.  In our case, our zip is not greater 
+    // than 80000, so we proceed to the next statement. 
+// The second statement says if the isStudent boolean is false OR the age variable is less than 30
+  // we would console.log 'What are your hobbies?'  Neither of these things are true for our variables,
+  // so we proceed to the 3rd statement.
+//  The third statement says if the isStudent boolean value is true, we console.log 'Welcome to Prime!'
+  // This is the case for us, so we would console.log 'Welcome to Prime!' and exit the code.
+  //We don't have to worry about the final else statement
 
 //CODE
 /*
@@ -135,11 +145,17 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - the instructions say colorOne is set to 'blue' and colorTwo
+  // is set to 'red'; these values are reversed in the code below. 
+  // the code should read let colorOne = 'blue';  let colorTwo = 'red'; 
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  //FIX - the instructions say if mix is true, both colorOne and ColorTwo 
+    //are set to purple.  In the code below, only colorOne is set to purple.
+    //colorTwo should be set to purple as well.  
   colorOne = 'purple';
 }
 */
